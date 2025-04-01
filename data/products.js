@@ -46,7 +46,7 @@ export const products = [
   {
     id: "id4",
     image: "images/products/ciggar.png",
-    name: "Malboro Ciggarate - SUJAI(Brand)",
+    name: "Malboro Ciggarate White Long",
     rating: {
       stars: 4.5,
       count: 98,
