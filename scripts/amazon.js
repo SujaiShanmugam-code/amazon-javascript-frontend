@@ -42,7 +42,7 @@ products.forEach((product) => {
 
     <div class="product-spacer"></div>
 
-    <div class="added-to-cart">
+    <div class="added-to-cart js-added-to-cart-${product.id}">
       <img src="images/icons/checkmark.png" />
       Added
     </div>
@@ -66,6 +66,16 @@ document.querySelectorAll(".js-add-to-cart-button").forEach((button) => {
       }
     });
 
+    const addedToCart = document.querySelector(
+      `.js-added-to-cart-${productId}`
+    );
+
+    addedToCart.classList.add("added-to-cart-visible");
+
+    setTimeout(() => {
+      addedToCart.classList.remove("added-to-cart-visible");
+    }, 2000);
+
     const quantitySelector = document.querySelector(
       `.js-quantity-selector-${productId}`
     );
@@ -73,7 +83,7 @@ document.querySelectorAll(".js-add-to-cart-button").forEach((button) => {
     let quantity = Number(quantitySelector.value);
 
     if (matchingItem) {
-      matchingItem.quantity += 1;
+      matchingItem.quantity += quantity;
     } else {
       cart.push({
         productId: productId,
