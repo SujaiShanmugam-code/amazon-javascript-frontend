@@ -18,7 +18,7 @@ export const products = [
       stars: 3.5,
       count: 56,
     },
-    priceCents: 400,
+    priceCents: 1500,
     keywords: ["umbrella", "rain", "weather", "raincover"],
   },
   {
@@ -29,7 +29,7 @@ export const products = [
       stars: 3.0,
       count: 15,
     },
-    priceCents: 300,
+    priceCents: 2000,
     keywords: ["school", "bag", "pack", "backpack"],
   },
   {
