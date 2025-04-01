@@ -11,6 +11,50 @@ const products = [
     keywords: ["socks", "sports", "apparel"],
   },
   {
+    id: "id1",
+    image: "images/products/umbrella.jpg",
+    name: "Lite Dark Green - Umbrella",
+    rating: {
+      stars: 3.5,
+      count: 56,
+    },
+    priceCents: 400,
+    keywords: ["umbrella", "rain", "weather", "raincover"],
+  },
+  {
+    id: "id2",
+    image: "images/products/backpack.jpg",
+    name: "School Backpack",
+    rating: {
+      stars: 3.0,
+      count: 15,
+    },
+    priceCents: 300,
+    keywords: ["school", "bag", "pack", "backpack"],
+  },
+  {
+    id: "id3",
+    image: "images/products/joystick.png",
+    name: "Joystick - SUJAI(Brand)",
+    rating: {
+      stars: 5.0,
+      count: 200,
+    },
+    priceCents: 3036,
+    keywords: ["game", "videogame", "joystick", "playstation"],
+  },
+  {
+    id: "id4",
+    image: "images/products/ciggar.png",
+    name: "Malboro Ciggarate - SUJAI(Brand)",
+    rating: {
+      stars: 4.5,
+      count: 98,
+    },
+    priceCents: 510,
+    keywords: ["ciggar", "malboro", "dum", "ciggarate"],
+  },
+  {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
     image: "images/products/intermediate-composite-basketball.jpg",
     name: "Intermediate Size Basketball",
