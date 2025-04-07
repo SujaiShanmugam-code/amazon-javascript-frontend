@@ -10,7 +10,12 @@ export function renderPaymentSummary() {
     const product = getProduct(cartItem.productId);
     productPriceCents += product.priceCents * cartItem.quantity;
 
-    const shipping = getDeliveryOption(cartItem.deliveryOptionId);
+    console.log(cartItem);
+
+    const shipping = getDeliveryOption(cartItem.deliveryOptionsId);
+
+    console.log(shipping);
+
     shippingPriceCents += shipping.priceCents;
   });
 
@@ -59,5 +64,6 @@ export function renderPaymentSummary() {
           <button class="place-order-button button-primary">
             Place your order
           </button>`;
+
   document.querySelector(".js-payment-summary").innerHTML = paymentHTML;
 }
