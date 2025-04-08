@@ -1,6 +1,6 @@
-import { formatCurrency } from "../utils/money.js";
+import { formatCurrency } from "../../utils/money.js";
 
-describe("FormatCurrency in our Amazon", () => {
+describe("Test suite : FormatCurrency in our Amazon", () => {
   it("convert cents to costs", () => {
     expect(formatCurrency(2095)).toEqual("20.95");
   });
