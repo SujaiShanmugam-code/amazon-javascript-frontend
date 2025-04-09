@@ -10,11 +10,11 @@ export function renderPaymentSummary() {
     const product = getProduct(cartItem.productId);
     productPriceCents += product.priceCents * cartItem.quantity;
 
-    console.log(cartItem);
+    // console.log(cartItem);
 
     const shipping = getDeliveryOption(cartItem.deliveryOptionsId);
 
-    console.log(shipping);
+    // console.log(shipping);
 
     shippingPriceCents += shipping.priceCents;
   });
