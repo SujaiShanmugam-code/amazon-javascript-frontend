@@ -23,16 +23,8 @@
   </head>
   <body>
     <div class="amazon-header">
-      <div class="amazon-header-left-section">
-        <a href="amazon.html" class="header-link">
-          <img class="amazon-logo" src="images/amazon-logo-white.png" />
-          <img
-            class="amazon-mobile-logo"
-            src="images/amazon-mobile-logo-white.png"
-          />
-        </a>
-      </div>
-
+      <!-- web component for amazon logo -->
+      <amazon-logo></amazon-logo>
       <div class="amazon-header-middle-section">
         <input class="search-bar" type="text" placeholder="Search" />
 
@@ -41,18 +33,7 @@
         </button>
       </div>
 
-      <div class="amazon-header-right-section">
-        <a class="orders-link header-link" href="orders.html">
-          <span class="returns-text">Returns</span>
-          <span class="orders-text">& Orders</span>
-        </a>
-
-        <a class="cart-link header-link" href="checkout.html">
-          <img class="cart-icon" src="images/icons/cart-icon.png" />
-          <div class="cart-quantity js-cart-quantity">0</div>
-          <div class="cart-text">Cart</div>
-        </a>
-      </div>
+      <layout-right></layout-right>
     </div>
 
     <div class="main">
@@ -61,5 +42,7 @@
     <!-- <script src="/data/cart.js"></script> -->
     <!-- <script src="/data//products.js"></script> -->
     <script type="module" src="/scripts//amazon.js"></script>
+    <script type="module" src="/components/button.js"></script>
+    <script type="module" src="/components/layout.js"></script>
   </body>
 </html>
