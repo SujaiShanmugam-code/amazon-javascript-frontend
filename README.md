@@ -47,9 +47,6 @@ This project incorporates concepts and techniques what i learnt and understand f
 ### 12. Advanced Functions
 - Closures, callbacks, function scope, currying, and recursion.
 
-### 12.2 Advanced Functions (Continued)
-- Debouncing, throttling, higher-order functions.
-
 ### 13. Start of Amazon Project + Intro to Git
 - Cloning, branching, commits, GitHub workflow.
 
@@ -71,7 +68,7 @@ This project incorporates concepts and techniques what i learnt and understand f
 #### 17.1 Inheritance
 - Prototypes, ES6 class inheritance, extending functionality.
 
-### 18. Backend Basics & Asynchronous JavaScript
+### 18. Asynchronous JavaScript
 - `fetch()`, promises, async/await, callbacks.
 
 ---
